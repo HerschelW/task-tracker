@@ -1,16 +1,16 @@
 type Task = {
-	id: string
-	title: string;
-	createdDate?: string;
-	dueDate?: string;
-	editedDate?: string;
-	details?: string;
-	priority: string;
-	status?: string;
+  id: string;
+  title: string;
+  createdDate?: string;
+  dueDate?: string;
+  editedDate?: string;
+  details?: string;
+  priority: string;
+  status?: string;
 };
 
 interface TaskColumn {
-	title: string;
-	status: string;
-	tasks: Task[];
+  title: string;
+  status: string;
+  tasks: Task[];
 }
